@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.erlangga.suaraku.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/dapil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="64dp"
+            android:layout_marginLeft="156dp"
+            android:layout_marginRight="64dp"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="15dp"
+
+            android:text="@string/nama_dapil" />
+
+        <AutoCompleteTextView
+            android:id="@+id/nama_dapil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/dapil"
+            android:layout_marginLeft="84dp"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="17dp"
+            android:ems="10"
+            android:text="">
+
+            <requestFocus />
+        </AutoCompleteTextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/nama_dapil"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/namaPartai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="64dp"
+                android:layout_marginLeft="156dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginStart="156dp"
+
+                android:text="@string/partai"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/partai_nasdem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/namaPartai"
+                android:layout_marginEnd="64dp"
+                android:layout_marginLeft="156dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginStart="156dp"
+                android:hint="@string/nasdem" />
+
+            <EditText
+                android:id="@+id/partai_pkb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/partai_nasdem"
+                android:layout_marginEnd="64dp"
+                android:layout_marginLeft="156dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginStart="156dp"
+                android:hint="@string/pkb" />
+
+            <EditText
+                android:id="@+id/partai_pks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/partai_pkb"
+                android:layout_marginEnd="64dp"
+                android:layout_marginLeft="156dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginStart="156dp"
+                android:hint="@string/pks" />
+
+            <EditText
+                android:id="@+id/partai_pdip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/partai_pks"
+                android:layout_marginEnd="64dp"
+                android:layout_marginLeft="156dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginStart="156dp"
+                android:hint="@string/pdip" />
+
+            <EditText
+                android:id="@+id/partai_golkar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/partai_pdip"
+                android:layout_marginEnd="64dp"
+                android:layout_marginLeft="156dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginStart="156dp"
+                android:hint="@string/golkar" />
+
+            <EditText
+                android:id="@+id/partai_gerinda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/partai_golkar"
+                android:layout_marginEnd="64dp"
+                android:layout_marginLeft="156dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginStart="156dp"
+                android:hint="@string/gerinda" />
+
+            <EditText
+                android:id="@+id/partai_demokrat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/partai_gerinda"
+                android:layout_marginEnd="64dp"
+                android:layout_marginLeft="156dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginStart="156dp"
+                android:hint="@string/demokrat" />
+
+            <EditText
+                android:id="@+id/partai_pan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/partai_demokrat"
+                android:layout_marginEnd="64dp"
+                android:layout_marginLeft="156dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginStart="156dp"
+                android:hint="@string/pan" />
+
+            <EditText
+                android:id="@+id/partai_ppp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/partai_pan"
+                android:layout_marginEnd="64dp"
+                android:layout_marginLeft="156dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginStart="156dp"
+                android:hint="@string/ppp" />
+
+            <EditText
+                android:id="@+id/partai_hanura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/partai_ppp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginLeft="156dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginStart="156dp"
+                android:hint="@string/hanura" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/save_button"
+                android:layout_alignEnd="@+id/partai_gerinda"
+                android:layout_alignRight="@+id/partai_gerinda"
+                android:layout_below="@+id/partai_hanura"
+                android:text="@string/hitung" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

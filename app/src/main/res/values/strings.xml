@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SuaraKu</string>
+
+    <string name="nama_dapil">Nama DAPIL</string>
+    <string name="partai">PARTAI</string>
+    <string name="nasdem">Nasdem</string>
+    <string name="pkb">PKB</string>
+    <string name="pks">PKS</string>
+    <string name="pdip">PDIP</string>
+    <string name="golkar">Golkar</string>
+    <string name="gerinda">Gerinda</string>
+    <string name="demokrat">Demokrat</string>
+    <string name="pan">PAN</string>
+    <string name="ppp">PPP</string>
+    <string name="hanura">Hanura</string>
+    <string name="hitung">Hitung</string>
+
+    /*hasilacitivty*/
+    <string name="bagi1">Di Bagi 1</string>
+    <string name="bagi3">Di Bagi 2</string>
+    <string name="bagi5">Di Bagi 5</string>
+    <string name="bagi7">Di Bagi 7</string>
+    <string name="bagi9">Di Bagi 9</string>
+    <string name="rank">Rank</string>
+
+    /*rank */
+    <string name="no">No</string>
+    <string name="parpol">Parpol</string>
+    <string name="totalsuara">Total Suara</string>
+
+</resources>
