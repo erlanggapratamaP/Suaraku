@@ -61,120 +61,93 @@
 
             <EditText
                 android:id="@+id/partai_nasdem"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/namaPartai"
-                android:layout_marginEnd="64dp"
-                android:layout_marginLeft="156dp"
-                android:layout_marginRight="64dp"
-                android:layout_marginStart="156dp"
-                android:hint="@string/nasdem" />
+                android:hint="@string/nasdem"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/partai_pkb"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/partai_nasdem"
-                android:layout_marginEnd="64dp"
-                android:layout_marginLeft="156dp"
-                android:layout_marginRight="64dp"
-                android:layout_marginStart="156dp"
-                android:hint="@string/pkb" />
+                android:hint="@string/pkb"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/partai_pks"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/partai_pkb"
-                android:layout_marginEnd="64dp"
-                android:layout_marginLeft="156dp"
-                android:layout_marginRight="64dp"
-                android:layout_marginStart="156dp"
-                android:hint="@string/pks" />
+                android:hint="@string/pks"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/partai_pdip"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/partai_pks"
-                android:layout_marginEnd="64dp"
-                android:layout_marginLeft="156dp"
-                android:layout_marginRight="64dp"
-                android:layout_marginStart="156dp"
-                android:hint="@string/pdip" />
+                android:hint="@string/pdip"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/partai_golkar"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/partai_pdip"
-                android:layout_marginEnd="64dp"
-                android:layout_marginLeft="156dp"
-                android:layout_marginRight="64dp"
-                android:layout_marginStart="156dp"
-                android:hint="@string/golkar" />
+                android:hint="@string/golkar"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/partai_gerinda"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/partai_golkar"
-                android:layout_marginEnd="64dp"
-                android:layout_marginLeft="156dp"
-                android:layout_marginRight="64dp"
-                android:layout_marginStart="156dp"
-                android:hint="@string/gerinda" />
+                android:hint="@string/gerinda"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/partai_demokrat"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/partai_gerinda"
-                android:layout_marginEnd="64dp"
-                android:layout_marginLeft="156dp"
-                android:layout_marginRight="64dp"
-                android:layout_marginStart="156dp"
-                android:hint="@string/demokrat" />
+                android:hint="@string/demokrat"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/partai_pan"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/partai_demokrat"
-                android:layout_marginEnd="64dp"
-                android:layout_marginLeft="156dp"
-                android:layout_marginRight="64dp"
-                android:layout_marginStart="156dp"
-                android:hint="@string/pan" />
+                android:hint="@string/pan"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/partai_ppp"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/partai_pan"
-                android:layout_marginEnd="64dp"
-                android:layout_marginLeft="156dp"
-                android:layout_marginRight="64dp"
-                android:layout_marginStart="156dp"
-                android:hint="@string/ppp" />
+                android:hint="@string/ppp"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/partai_hanura"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/partai_ppp"
-                android:layout_marginEnd="64dp"
-                android:layout_marginLeft="156dp"
-                android:layout_marginRight="64dp"
-                android:layout_marginStart="156dp"
-                android:hint="@string/hanura" />
+                android:hint="@string/hanura"
+                android:inputType="number" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/save_button"
-                android:layout_alignEnd="@+id/partai_gerinda"
-                android:layout_alignRight="@+id/partai_gerinda"
+                android:layout_marginEnd="64dp"
+                android:layout_marginLeft="156dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginStart="156dp"
+                android:gravity="center"
                 android:layout_below="@+id/partai_hanura"
                 android:text="@string/hitung" />
 

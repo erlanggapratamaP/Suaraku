@@ -6,52 +6,76 @@ package com.example.erlangga.suaraku.Data;
 
 public class Pembagian {
 
-    Integer bagi1;
-    Integer bagi3;
-    Integer bagi5;
-    Integer bagi7;
 
-    public  Pembagian(){
+
+
+    String id;
+    String nama_partai;
+    Integer jumlah_bagi1;
+    Integer jumlah_bagi3;
+    Integer jumlah_bagi5;
+    Integer jumlah_bagi7;
+
+    public Pembagian(){
 
     }
-    public Pembagian(Integer bagi1, Integer bagi3, Integer bagi5, Integer bagi7){
-        this.bagi1 =  bagi1;
-        this.bagi3 = bagi3;
-        this.bagi5 = bagi5;
-        this.bagi7 = bagi7;
+    public Pembagian(String id, String nama_partai, Integer jumlah_bagi1, Integer jumlah_bagi3, Integer jumlah_bagi5, Integer jumlah_bagi7){
+        this.id = id;
+        this.nama_partai = nama_partai;
+        this.jumlah_bagi1 = jumlah_bagi1;
+        this.jumlah_bagi3 = jumlah_bagi3;
+        this.jumlah_bagi5 = jumlah_bagi5;
+        this.jumlah_bagi7 = jumlah_bagi7;
     }
 
-    public Integer getBagi1() {
-        return bagi1;
+
+    public String getId() {
+        return id;
     }
 
-    public void setBagi1(Integer bagi1) {
-        this.bagi1 = bagi1;
+    public void setId(String id) {
+        this.id = id;
+    }
+    public String getNama_partai() {
+        return nama_partai;
     }
 
-    public Integer getBagi3() {
-        return bagi3;
+    public void setNama_partai(String nama_partai) {
+        this.nama_partai = nama_partai;
     }
 
-    public void setBagi3(Integer bagi3) {
-        this.bagi3 = bagi3;
+    public Integer getJumlah_bagi1() {
+        return jumlah_bagi1;
     }
 
-    public Integer getBagi5() {
-        return bagi5;
+    public void setJumlah_bagi1(Integer jumlah_bagi1) {
+        this.jumlah_bagi1 = jumlah_bagi1;
     }
 
-    public void setBagi5(Integer bagi5) {
-        this.bagi5 = bagi5;
+    public Integer getJumlah_bagi3() {
+        return jumlah_bagi3;
     }
 
-    public Integer getBagi7() {
-        return bagi7;
+    public void setJumlah_bagi3(Integer jumlah_bagi3) {
+        this.jumlah_bagi3 = jumlah_bagi3;
     }
 
-    public void setBagi7(Integer bagi7) {
-        this.bagi7 = bagi7;
+    public Integer getJumlah_bagi5() {
+        return jumlah_bagi5;
     }
+
+    public void setJumlah_bagi5(Integer jumlah_bagi5) {
+        this.jumlah_bagi5 = jumlah_bagi5;
+    }
+
+    public Integer getJumlah_bagi7() {
+        return jumlah_bagi7;
+    }
+
+    public void setJumlah_bagi7(Integer jumlah_bagi7) {
+        this.jumlah_bagi7 = jumlah_bagi7;
+    }
+
 
 
 }

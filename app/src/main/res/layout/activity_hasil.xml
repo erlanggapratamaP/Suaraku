@@ -11,4 +11,35 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:divider="#00000000"/>
+
+    <Button
+        android:id="@+id/btnBagi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="Lihat Bagi 1"/>
+    <Button
+        android:id="@+id/btnBagi3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:text="Lihat Bagi 3"/>
+    <Button
+        android:id="@+id/btnBagi5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:text="Lihat Bagi 5"/>
+    <Button
+        android:id="@+id/btnBagi7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"
+        android:text="Lihat Bagi 7"/>
+
+
 </RelativeLayout>

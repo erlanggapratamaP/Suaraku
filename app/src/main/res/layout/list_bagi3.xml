@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -8,8 +9,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/text_rank"
-            android:text="@string/rank"
+            android:id="@+id/bagi3_text"
+            android:text="@string/bagi3"
             />
         <LinearLayout
             android:layout_width="wrap_content"
@@ -20,22 +21,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/no"
-                android:id="@+id/no_rank"/>
+                android:id="@+id/no_rank_3"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/parpol"
-                android:id="@+id/parpol_rank"
+                android:id="@+id/parpol_rank_3"
                 android:layout_marginTop="5dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/totalsuara"
-                android:id="@+id/total_suara_rank"
+                android:id="@+id/total_suara_rank_3"
                 android:layout_marginTop="10dp"/>
         </LinearLayout>
     </LinearLayout>
-
-
-
 </RelativeLayout>
