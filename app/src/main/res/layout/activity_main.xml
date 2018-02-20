@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.erlangga.suaraku.MainActivity">
+    tools:context="com.android.suaraku.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -60,34 +60,26 @@
                 android:textSize="16sp" />
 
             <EditText
-                android:id="@+id/partai_nasdem"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/namaPartai"
-                android:hint="@string/nasdem"
-                android:inputType="number" />
-
-            <EditText
                 android:id="@+id/partai_pkb"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/partai_nasdem"
+                android:layout_below="@id/namaPartai"
                 android:hint="@string/pkb"
                 android:inputType="number" />
 
             <EditText
-                android:id="@+id/partai_pks"
+                android:id="@+id/partai_gerinda"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/partai_pkb"
-                android:hint="@string/pks"
+                android:layout_below="@+id/partai_pkb"
+                android:hint="@string/gerinda"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/partai_pdip"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/partai_pks"
+                android:layout_below="@+id/partai_gerinda"
                 android:hint="@string/pdip"
                 android:inputType="number" />
 
@@ -98,46 +90,84 @@
                 android:layout_below="@+id/partai_pdip"
                 android:hint="@string/golkar"
                 android:inputType="number" />
-
             <EditText
-                android:id="@+id/partai_gerinda"
+                android:id="@+id/partai_nasdem"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/partai_golkar"
-                android:hint="@string/gerinda"
+                android:hint="@string/nasdem"
                 android:inputType="number" />
-
             <EditText
-                android:id="@+id/partai_demokrat"
+                android:id="@+id/partai_garuda"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/partai_gerinda"
-                android:hint="@string/demokrat"
+                android:layout_below="@+id/partai_nasdem"
+                android:hint="@string/garuda"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/partai_berkarya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/partai_garuda"
+                android:hint="@string/berkarya"
+                android:inputType="number" />
+
+
+            <EditText
+                android:id="@+id/partai_pks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/partai_berkarya"
+                android:hint="@string/pks"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/partai_perindo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/partai_pks"
+                android:hint="@string/perindo"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/partai_ppp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/partai_perindo"
+                android:hint="@string/ppp"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/partai_psi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/partai_ppp"
+                android:hint="@string/psi"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/partai_pan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/partai_demokrat"
+                android:layout_below="@+id/partai_psi"
                 android:hint="@string/pan"
                 android:inputType="number" />
 
-            <EditText
-                android:id="@+id/partai_ppp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/partai_pan"
-                android:hint="@string/ppp"
-                android:inputType="number" />
+
 
             <EditText
                 android:id="@+id/partai_hanura"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/partai_ppp"
+                android:layout_below="@+id/partai_pan"
                 android:hint="@string/hanura"
                 android:inputType="number" />
+
+            <EditText
+                android:id="@+id/partai_demokrat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/partai_hanura"
+                android:hint="@string/demokrat"
+                android:inputType="number" />
+
 
             <Button
                 android:layout_width="wrap_content"
@@ -148,7 +178,7 @@
                 android:layout_marginRight="64dp"
                 android:layout_marginStart="156dp"
                 android:gravity="center"
-                android:layout_below="@+id/partai_hanura"
+                android:layout_below="@+id/partai_demokrat"
                 android:text="@string/hitung" />
 
         </RelativeLayout>

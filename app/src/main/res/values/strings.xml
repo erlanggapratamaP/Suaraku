@@ -3,29 +3,36 @@
 
     <string name="nama_dapil">Nama DAPIL</string>
     <string name="partai">PARTAI</string>
-    <string name="nasdem">Nasdem</string>
-    <string name="pkb">PKB</string>
-    <string name="pks">PKS</string>
-    <string name="pdip">PDIP</string>
-    <string name="golkar">Golkar</string>
-    <string name="gerinda">Gerinda</string>
-    <string name="demokrat">Demokrat</string>
-    <string name="pan">PAN</string>
-    <string name="ppp">PPP</string>
-    <string name="hanura">Hanura</string>
+    <string name="pkb">1.PKB</string>
+    <string name="gerinda">2.Gerinda</string>
+    <string name="pdip">3.PDIP</string>
+    <string name="golkar">4.Golkar</string>
+    <string name="nasdem">5.Nasdem</string>
+    <string name="garuda">6.Garuda</string>
+    <string name="berkarya">7.Berkarya</string>
+    <string name="pks">8.PKS</string>
+    <string name="perindo">9.Perindo</string>
+    <string name="ppp">10.PPP</string>
+    <string name="psi">11.PSI</string>
+    <string name="pan">12.PAN</string>
+    <string name="hanura">13.Hanura</string>
+    <string name="demokrat">14.Demokrat</string>
+
+
     <string name="hitung">Hitung</string>
 
     /*hasilacitivty*/
     <string name="bagi1">Di Bagi 1</string>
-    <string name="bagi3">Di Bagi 2</string>
+    <string name="bagi3">Di Bagi 3</string>
     <string name="bagi5">Di Bagi 5</string>
     <string name="bagi7">Di Bagi 7</string>
     <string name="bagi9">Di Bagi 9</string>
     <string name="rank">Rank</string>
 
     /*rank */
-    <string name="no">No</string>
-    <string name="parpol">Parpol</string>
-    <string name="totalsuara">Total Suara</string>
+    <string name="no">No urut partai: </string>
+    <string name="parpol">Nama Partai: </string>
+    <string name="totalsuara">Jumlah Suara: </string>
 
+    <string name="seat">Jumlah Kursi: </string>
 </resources>

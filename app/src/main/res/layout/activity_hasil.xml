@@ -4,42 +4,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.erlangga.suaraku.HasilActivity">
+    tools:context="com.android.suaraku.HasilActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jumlah_kursi"
+        android:layout_centerHorizontal="true"/>
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rank_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:divider="#00000000"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/btnBagi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_centerHorizontal="true"
+            android:text="Lihat Bagi 1"/>
+        <Button
+            android:id="@+id/btnBagi3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_centerHorizontal="true"
+            android:text="Lihat Bagi 3"/>
 
-    <Button
-        android:id="@+id/btnBagi1"
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_centerHorizontal="true"
-        android:text="Lihat Bagi 1"/>
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/btnBagi5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:text="Lihat Bagi 5"/>
+        <Button
+            android:id="@+id/btnBagi7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:text="Lihat Bagi 7"/>
+    </LinearLayout>
     <Button
-        android:id="@+id/btnBagi3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:layout_centerHorizontal="true"
-        android:text="Lihat Bagi 3"/>
-    <Button
-        android:id="@+id/btnBagi5"
+        android:id="@+id/btnSeat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="300dp"
         android:layout_centerHorizontal="true"
-        android:text="Lihat Bagi 5"/>
-    <Button
-        android:id="@+id/btnBagi7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
-        android:layout_centerHorizontal="true"
-        android:text="Lihat Bagi 7"/>
+        android:text="Rekap Kursi Yang Di Dapat"/>
 
 
 </RelativeLayout>

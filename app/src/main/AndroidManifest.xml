@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.erlangga.suaraku">
+    package="com.android.suaraku">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,18 +11,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"></activity>
         <activity android:name=".HasilActivity" />
         <activity android:name=".activitybagi.Bagi1Activity" />
         <activity android:name=".activitybagi.Bagi3Activity" />
         <activity android:name=".activitybagi.Bagi5Activity" />
-        <activity android:name=".activitybagi.Bagi7Activity"></activity>
+        <activity android:name=".activitybagi.Bagi7Activity" />
+        <activity android:name=".RekapActivity"></activity>
     </application>
 
 </manifest>

@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.android.suaraku.activitybagi.Bagi7Activity">
+    tools:context="com.android.suaraku.RekapActivity">
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/bagi_7"
+        android:id="@+id/rekap_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:divider="#00000000"/>
-
 </RelativeLayout>

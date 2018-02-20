@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.erlangga.suaraku.activitybagi.Bagi5Activity">
+    tools:context="com.android.suaraku.activitybagi.Bagi5Activity">
     <android.support.v7.widget.RecyclerView
         android:id="@+id/bagi_5"
         android:layout_width="match_parent"
